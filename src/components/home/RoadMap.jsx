@@ -18,23 +18,23 @@ const RoadMap = () => {
             <img className='absolute top-[48%] left-[36.5%] max-xl:hidden' src={RoadMapLineTwo} alt="RoadmapLine" />
             <img className='absolute top-[48%] left-[56%] max-xl:hidden' src={RoadMapLineThree} alt="RoadmapLine" />
             <img className='absolute top-[48%] left-[75%] max-xl:hidden' src={RoadMapLineFour} alt="RoadmapLine" />
-            <div className='w-0.5 h-full min-h-[1024px] hidden max-xl:block absolute left-1/2 translate-x-[-50%] bg-white'></div>
+            {/* <div className='w-0.5 h-full min-h-[1024px] hidden max-xl:block absolute left-1/2 translate-x-[-50%] bg-white'></div> */}
             {/* Roadmap Item  1 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-col-reverse max-xl:w-max max-xl:gap-10'>
-                <div className='absolute max-xl:relative xl:top-[20%] xl:left-[2%]'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
+                <div className='absolute max-xl:relative max-md:w-full xl:top-[20%] xl:left-[2%]'>
                     <ul>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white'>
+                        <li className='list-disc  text-white'>
                             <CommonDescription CommonSectionDescription={"Ut eu ac sed duis nec amet."} />
                         </li>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white'>
+                        <li className='list-disc  text-white'>
                             <CommonDescription CommonSectionDescription={"Sed elementum a tortor eros."} />
                         </li>
                     </ul>
                 </div>
                 <div className='absolute max-xl:relative  xl:!top-[30%]'>
                     <div className='relative w-max'>
-                    <img className='relative z-20' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-Righteous leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <img className='relative z-20 max-md:max-w-[120px]' src={RoadMapPentagon} alt="Pentagon" />
+                    <p className='text-[40px] z-20 font-Righteous max-xl:text-4xl max-lg:text-3xl max-md:text-xl leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     2021
                     <span className='block'>December</span>
                     </p>
@@ -43,21 +43,21 @@ const RoadMap = () => {
                 </div>
             </div>
             {/* Roadmap Item  2 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-col-reverse max-xl:w-max max-xl:ml-auto max-xl:gap-10'>
-                <div className='absolute max-xl:relative xl:bottom-[13%] xl:left-[20%] max-xl:ml-auto max-w-[367px]'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
+                <div className='absolute max-xl:relative xl:bottom-[13%] xl:left-[20%] max-xl:ml-auto xl:max-w-[367px]'>
                     <ul>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white'>
+                        <li className='list-disc  text-white'>
                             <CommonDescription CommonSectionDescription={"Sagittis tristique molestie eu pharetra."} />
                         </li>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white'>
+                        <li className='list-disc  text-white '>
                             <CommonDescription CommonSectionDescription={"Nibh convallis ornare fringilla diam proin volutpat aliquet nunc."} />
                         </li>
                     </ul>
                 </div>
                 <div className='absolute max-xl:relative xl:top-[48%] xl:left-[20%] max-xl:mx-auto'> 
                     <div className='relative w-max'>
-                    <img className='relative z-20' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-Righteous leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <img className='relative z-20 max-md:max-w-[120px]' src={RoadMapPentagon} alt="Pentagon" />
+                    <p className='text-[40px] z-20 font-Righteous max-xl:text-4xl max-lg:text-3xl max-md:text-xl leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     2022
                     <span className='block'>Feburary</span>
                     </p>
@@ -66,21 +66,21 @@ const RoadMap = () => {
                 </div>
             </div>
             {/* RoadMap Item 3 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-col-reverse max-xl:w-max max-xl:gap-10'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
                 <div className='absolute max-xl:relative  xl:top-[20%] xl:left-[40%] max-w-[367px]'>
                     <ul>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white'>
+                        <li className='list-disc  text-white'>
                             <CommonDescription CommonSectionDescription={"Adipiscing velit turpis pretium, tellus."} />
                         </li>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white'>
+                        <li className='list-disc  text-white'>
                             <CommonDescription CommonSectionDescription={"Ornare urna arcu, dolor vestibulum."} />
                         </li>
                     </ul>
                 </div>
                 <div className='absolute max-xl:relative  xl:top-[30%] xl:left-[40%]'> 
                     <div className='relative w-max'>
-                    <img className='relative z-20' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-Righteous leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <img className='relative z-20 max-md:max-w-[120px]' src={RoadMapPentagon} alt="Pentagon" />
+                    <p className='text-[40px] z-20 font-Righteous max-xl:text-4xl max-lg:text-3xl max-md:text-xl leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     2022
                     <span className='block'>Feburary</span>
                     </p>
@@ -90,21 +90,21 @@ const RoadMap = () => {
                 </div>
             </div>
             {/* RoadMap Item 4 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-col-reverse max-xl:w-max max-xl:ml-auto max-xl:gap-10'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
                 <div className='absolute max-xl:relative  xl:bottom-[13%] xl:left-[60%] '>
                     <ul>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white'>
+                        <li className='list-disc  text-white'>
                             <CommonDescription CommonSectionDescription={"Eget imperdiet mauris interdum ut egestas lacinia lacus."} />
                         </li>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white max-w-[367px]'>
+                        <li className='list-disc  text-white xl:max-w-[367px]'>
                             <CommonDescription CommonSectionDescription={"Non ipsum, cursus consectetur fringilla aliquam."} />
                         </li>
                     </ul>
                 </div>
                 <div className='absolute max-xl:relative  xl:top-[48%] max-xl:mx-auto xl:left-[60%]'> 
                     <div className='relative w-max'>
-                    <img className='relative z-20' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-Righteous leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <img className='relative z-20 max-md:max-w-[120px]' src={RoadMapPentagon} alt="Pentagon" />
+                    <p className='text-[40px] z-20 font-Righteous max-xl:text-4xl max-lg:text-3xl max-md:text-xl leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     2022
                     <span className='block'>Feburary</span>
                     </p>
@@ -113,18 +113,18 @@ const RoadMap = () => {
                 </div>
             </div>
             {/* Roadmap Item 5 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-col-reverse max-xl:w-max max-xl:gap-10'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
                 <div className='absolute max-xl:relative  xl:top-[20%] xl:left-[80%] '>
                     <ul>
-                        <li className='list-disc max-xl:max-w-[367px]  text-white'>
+                        <li className='list-disc  text-white'>
                             <CommonDescription CommonSectionDescription={"Elementum elementum sit mauris amet non."} />
                         </li>
                     </ul>
                 </div>
                 <div className='absolute max-xl:relative  xl:top-[30%] max-xl:mx-auto xl:left-[80%]'> 
                     <div className='relative w-max'>
-                    <img className='relative z-20' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-Righteous leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <img className='relative z-20 max-md:max-w-[120px]' src={RoadMapPentagon} alt="Pentagon" />
+                    <p className='text-[40px] z-20 font-Righteous max-xl:text-4xl max-lg:text-3xl max-md:text-xl leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     2022
                     <span className='block'>Feburary</span>
                     </p>

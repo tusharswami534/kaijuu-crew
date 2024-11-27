@@ -11,3 +11,17 @@ export const DiscordIcon = () => (
 </svg>
 
 )
+export const NextArrow = () => (
+    <svg width="83" height="30" viewBox="0 0 83 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2.38419e-06 26H74L52.5074 3" stroke="#FF002A" stroke-width="7.11905"/>
+    </svg>
+    
+
+)
+export const PrveArrow = () => (
+    <svg width="83" height="30" viewBox="0 0 83 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2.38419e-06 26H74L52.5074 3" stroke="#FF002A" stroke-width="7.11905"/>
+    </svg>
+    
+
+)

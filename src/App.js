@@ -3,7 +3,7 @@ import NavBar from './components/common/NavBar';
 import About from './components/home/About';
 import Hero from './components/home/Hero';
 import RoadMap from './components/home/RoadMap';
-import Text from './components/home/Text';
+import TeamSlider from './components/home/TeamSlider';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Hero/>
         <About/>
         <RoadMap/>
-        <Text/>
+        <TeamSlider/>
     </div>
   );
 }
