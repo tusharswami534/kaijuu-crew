@@ -6,18 +6,21 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-// Import required modules
-import { Autoplay, Navigation } from 'swiper';
+// Import required modules from swiper
+import { Autoplay, Navigation } from 'swiper/modules';
+
+// Importing images
 import SldierImageOne from '../../assets/image/png/team-slider-image-1.png';
 import SldierImageTwo from '../../assets/image/png/team-slider-image-2.png';
+import { NextArrow, PrveArrow } from '../common/Icon';
 
 const TeamSlider = () => {
   return (
-    <div>
-      <div className="max-w-[1320px] mx-auto">
+    <div className='bg-blue-charcoal'>
+      <div className="max-w-[1320px] mx-auto relative">
         {/* Custom navigation buttons */}
-        <button className="custom-prev-btn">Previous</button>
-        <button className="custom-next-btn">Next</button>
+        <button className="custom-prev-btn absolute left-[-7%] top-1/2 max-xl:hidden "> <PrveArrow/> </button>
+        <button className="custom-next-btn  absolute right-[-7%] top-1/2  max-xl:hidden"><NextArrow/> </button>
 
         <Swiper
           slidesPerView={3}
@@ -29,10 +32,10 @@ const TeamSlider = () => {
             disableOnInteraction: false,
           }}
           navigation={{
-            prevEl: '.custom-prev-btn', // Connect the custom prev button
-            nextEl: '.custom-next-btn', // Connect the custom next button
+            prevEl: '.custom-prev-btn',
+            nextEl: '.custom-next-btn',
           }}
-          modules={[Autoplay, Navigation]}
+          modules={[Autoplay, Navigation]} // Using the modules here
           className="mySwiper"
         >
           <SwiperSlide>

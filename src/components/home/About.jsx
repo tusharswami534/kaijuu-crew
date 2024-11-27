@@ -6,8 +6,8 @@ import AboutImageOne from '../../assets/image/png/about-image-1.png'
 
 const About = () => {
   return (
-    <div className='bg-blue-charcoal'>
-        <div className='max-w-[1320px] mx-auto'>
+    <div className='bg-blue-charcoal -mt-0.5'>
+        <div className='max-w-[1320px] max-xl:px-5 mx-auto'>
             <div className='flex flex-wrap'>
                 <div className="w-1/2 max-lg:w-full">
                     <div>
@@ -21,12 +21,12 @@ const About = () => {
                     </div>
                 </div>
                 <div className='w-1/2 max-lg:w-full'>
-                    <div className='flex flex-wrap'>
-                        <div className='max-md:w-full w-1/2 flex  flex-col items-end justify-end'>
+                    <div className='flex flex-wrap max-lg:gap-10'>
+                        <div className='max-md:w-full w-1/2 flex  flex-col max-md:items-center items-end justify-end'>
                         <img src={AboutImageOne} alt="imageOne" />
                         <img src={AboutImageOne} alt="imageOne" />
                         </div>
-                        <div className='max-md:w-full w-1/2 flex  flex-col items-end justify-end'>
+                        <div className='max-md:w-full w-1/2 flex  flex-col items-end max-md:items-center justify-end'>
                         <img src={AboutImageOne} alt="imageOne" />
                         <img src={AboutImageOne} alt="imageOne" />
                         </div>

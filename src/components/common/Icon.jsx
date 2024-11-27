@@ -20,8 +20,14 @@ export const NextArrow = () => (
 )
 export const PrveArrow = () => (
     <svg width="83" height="30" viewBox="0 0 83 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2.38419e-06 26H74L52.5074 3" stroke="#FF002A" stroke-width="7.11905"/>
+    <path d="M83 4H9L30.4926 27" stroke="#FF002A" stroke-width="7.11905"/>
     </svg>
     
+    
 
+)
+export const ETHCoin = () => (
+    <svg width="20" height="32" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.4937 16.3L10 22.1L0.5 16.3L10 0L19.4937 16.3ZM10 23.9625L0.5 18.1625L10 32L19.5 18.1625L10 23.9625Z" fill="white"/>
+</svg>
 )

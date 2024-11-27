@@ -7,11 +7,11 @@ import { DiscordIcon } from '../common/Icon'
 const Hero = () => {
   return (
     <div className='bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${HeroBgImage})` }}>
-        <div className='max-w-[1320px] py-[55px] mx-auto'>
-          <div className='flex flex-wrap'>
+        <div className='max-w-[1320px] max-xl:px-5 py-[55px] mx-auto'>
+          <div className='flex flex-wrap max-lg:gap-10'>
             <div className='w-5/12 max-lg:w-full'>
               <div>
-                <h1 className='text-ferrari-red font-godzilla text-[145.44px] leading-115'>Kaijuu<span className='text-white'> Crew </span> </h1>
+                <h1 className='text-ferrari-red font-godzilla text-[145.44px] max-xl:text-9xl max-lg:text-8xl max-md:text-7xl max-sm:text-6xl leading-115'>Kaijuu<span className='text-white'> Crew </span> </h1>
                 <p className='max-w-[368px] text-white font-oswald'>
                 The ocean surges with spray and foam,
 As Kaijuu rise from depth to roam.
@@ -24,12 +24,12 @@ Nay, but 'cause your Apes are Bored.
 
                 </p>
                 <Countdown/>
-                <div className='flex gap-4'>
-                  <button className='hover:scale-110 transition-all-ease duration-300  py-3 flex uppercase font-bold leading-150 bg-ferrari-red text-lg px-9 rounded-[7px] text-white items-center gap-[11px]' >
+                <div className='flex gap-4 max-sm:flex-col'>
+                  <button className='hover:scale-110 whitespace-nowrap w-max transition-all-ease duration-300  py-3 flex uppercase font-bold leading-150 bg-ferrari-red text-lg px-9 rounded-[7px] text-white items-center gap-[11px]' >
                     <DiscordIcon/>
                   join discord
                   </button>
-                  <button className='hover:scale-110 transition-all-ease duration-300  py-3 flex uppercase font-bold leading-150 bg-ferrari-red text-lg px-9 rounded-[7px] text-white items-center gap-[11px]' >
+                  <button className='hover:scale-110 whitespace-nowrap w-max transition-all-ease duration-300  py-3 flex uppercase font-bold leading-150 bg-ferrari-red text-lg px-9 rounded-[7px] text-white items-center gap-[11px]' >
                   Connect Wallet
                   </button>
                 </div>

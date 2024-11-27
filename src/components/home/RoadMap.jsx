@@ -20,7 +20,7 @@ const RoadMap = () => {
             <img className='absolute top-[48%] left-[75%] max-xl:hidden' src={RoadMapLineFour} alt="RoadmapLine" />
             {/* <div className='w-0.5 h-full min-h-[1024px] hidden max-xl:block absolute left-1/2 translate-x-[-50%] bg-white'></div> */}
             {/* Roadmap Item  1 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:max-w-[769px] max-md:w-full'>
                 <div className='absolute max-xl:relative max-md:w-full xl:top-[20%] xl:left-[2%]'>
                     <ul>
                         <li className='list-disc  text-white'>
@@ -43,7 +43,7 @@ const RoadMap = () => {
                 </div>
             </div>
             {/* Roadmap Item  2 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:max-w-[769px] max-md:w-full'>
                 <div className='absolute max-xl:relative xl:bottom-[13%] xl:left-[20%] max-xl:ml-auto xl:max-w-[367px]'>
                     <ul>
                         <li className='list-disc  text-white'>
@@ -66,7 +66,7 @@ const RoadMap = () => {
                 </div>
             </div>
             {/* RoadMap Item 3 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:max-w-[769px] max-md:w-full'>
                 <div className='absolute max-xl:relative  xl:top-[20%] xl:left-[40%] max-w-[367px]'>
                     <ul>
                         <li className='list-disc  text-white'>
@@ -90,7 +90,7 @@ const RoadMap = () => {
                 </div>
             </div>
             {/* RoadMap Item 4 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:max-w-[769px] max-md:w-full'>
                 <div className='absolute max-xl:relative  xl:bottom-[13%] xl:left-[60%] '>
                     <ul>
                         <li className='list-disc  text-white'>
@@ -113,7 +113,7 @@ const RoadMap = () => {
                 </div>
             </div>
             {/* Roadmap Item 5 */}
-            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:'>
+            <div className='max-xl:flex roadmap-item max-xl:flex-row-reverse items-center max-xl:w-max max-xl:gap-10 max-md:max-w-[769px] max-md:w-full'>
                 <div className='absolute max-xl:relative  xl:top-[20%] xl:left-[80%] '>
                     <ul>
                         <li className='list-disc  text-white'>
