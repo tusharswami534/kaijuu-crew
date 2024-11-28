@@ -14,13 +14,13 @@ import CommonHeading from '../common/CommonHeading';
 
 const TeamSlider = () => {
   return (
-    <div id='team' className='bg-blue-charcoal -mt-0.5 '>
+    <div id='team' className='bg-blue-charcoal -mt-0.5 pt-[72px] pb-[130px]'>
       <div className="max-w-[1320px] mx-auto relative">
-        <div className='text-center'>
+        <div className='text-center pb-[55px]'>
         <CommonHeading SectionHeading={"Team"}/>
         </div>
-        <button className="custom-prev-btn absolute left-[-7%] top-1/2 max-xl:hidden  max-2xl:hidden"> <PrveArrow/> </button>
-        <button className="custom-next-btn  absolute right-[-7%] top-1/2  max-xl:hidden max-2xl:hidden"><NextArrow/> </button>
+        <button className="custom-prev-btn absolute left-[-7%] top-[65%] max-xl:hidden  max-2xl:hidden"> <PrveArrow/> </button>
+        <button className="custom-next-btn  absolute right-[-7%] top-[65%]  max-xl:hidden max-2xl:hidden"><NextArrow/> </button>
 
         <Swiper
           slidesPerView={3}

@@ -9,7 +9,7 @@ import CommonHeading from '../common/CommonHeading'
 
 const KaijuuCrewClasses = () => {
   return (
-    <div className='bg-no-repeat overflow-hidden bg-cover bg-center pt-[171px] pb-[230px] max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12 ' style={{ backgroundImage: `url(${CrewBgImage})` }} >
+    <div className='bg-no-repeat overflow-hidden bg-cover bg-center pt-[171px] pb-[225px] max-lg:py-[60px] max-md:py-[40px] max-sm:py-[30px] ' style={{ backgroundImage: `url(${CrewBgImage})` }} >
         <div className='text-center pb-[85px]'>
         <CommonHeading SectionHeading="Kaijuu" SectionWhiteHeading=" Crew Classes"/>
         </div>
