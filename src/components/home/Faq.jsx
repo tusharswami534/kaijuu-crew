@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import CommonHeading from '../common/CommonHeading';
 import FooterBgImage from '../../assets/image/png/footer-bg-image.png'
+import Footer from '../common/Footer';
 
 const Faq = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -11,8 +12,8 @@ const Faq = () => {
     };
 
     return (
-        <div style={{ backgroundImage: `url(${FooterBgImage})` }} className="bg-faq bg-cover bg-no-repeat bg-center -mt-[1px] relative" id="faq">
-            <div className="max-w-[1320px] mx-auto pt-[106px] pb-[60px]">
+        <div  style={{ backgroundImage: `url(${FooterBgImage})` }} className="bg-faq bg-cover bg-no-repeat bg-center -mt-[1px] relative" id="faq">
+            <div className="max-w-[1320px] max-xl:px-5 mx-auto pt-[106px] pb-[192px]">
                 <div className='flex items-end text-center justify-center'>
                 <CommonHeading SectionHeading={'FAQ'}/><p className='text-white text-[40px] font-godzilla'>S</p>
                 </div>
@@ -154,6 +155,7 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 };

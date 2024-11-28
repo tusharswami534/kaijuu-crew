@@ -7,7 +7,7 @@ import { ETHCoin } from '../common/Icon'
 
 const Traits = () => {
   return (
-    <div className='bg-no-repeat bg-cover bg-center py-24 max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12' style={{ backgroundImage: `url(${TraitsBgImage})` }}>
+    <div id='traits' className='bg-no-repeat bg-cover bg-center py-24 max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12' style={{ backgroundImage: `url(${TraitsBgImage})` }}>
         <div className='max-w-[1320px] mx-auto max-xl:px-5'>
             <div className='text-center pb-10'>
             <CommonHeading SectionHeading={'Traits'} SectionWhiteHeading={''}/>

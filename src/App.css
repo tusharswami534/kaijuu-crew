@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 .hero-slider{
     animation: slide 20s linear infinite;
 }

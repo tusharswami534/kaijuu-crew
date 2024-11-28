@@ -5,6 +5,7 @@ import Faq from './components/home/Faq';
 import Hero from './components/home/Hero';
 import KaijuuCrewClasses from './components/home/KaijuuCrewClasses';
 import RoadMap from './components/home/RoadMap';
+import Story from './components/home/Story';
 import TeamSlider from './components/home/TeamSlider';
 import Traits from './components/home/Traits';
 
@@ -16,6 +17,7 @@ function App() {
         <Hero/>
         <About/>
         <KaijuuCrewClasses/>
+        <Story/>
         <Traits/>
         <RoadMap/>
         <TeamSlider/>

@@ -3,16 +3,17 @@ import HeroBgImage from '../../assets/image/png/hero-bg-image.png'
 import Countdown from './Countdown'
 import HeroImage from '../../assets/image/png/hero-image.png'
 import { DiscordIcon } from '../common/Icon'
+import HeroSlider from './HeroSlider'
 
 const Hero = () => {
   return (
     <div className='bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${HeroBgImage})` }}>
-        <div className='max-w-[1320px] max-xl:px-5 py-[55px] mx-auto'>
+        <div className='max-w-[1320px] max-xl:px-5 pt-[55px] pb-3 mx-auto'>
           <div className='flex flex-wrap max-lg:gap-10'>
             <div className='w-5/12 max-lg:w-full'>
               <div>
                 <h1 className='text-ferrari-red font-godzilla text-[145.44px] max-xl:text-9xl max-lg:text-8xl max-md:text-7xl max-sm:text-6xl leading-115'>Kaijuu<span className='text-white'> Crew </span> </h1>
-                <p className='max-w-[368px] text-white font-oswald'>
+                <p className='max-w-[368px] text-[22px] text-white font-oswald'>
                 The ocean surges with spray and foam,
 As Kaijuu rise from depth to roam.
 Thirty-three hundred, and thirty-three more,
@@ -35,11 +36,12 @@ Nay, but 'cause your Apes are Bored.
                 </div>
               </div>
             </div>
-            <div className='w-7/12 max-lg:w-full'>
+            <div className='w-7/12 flex justify-end max-lg:w-full'>
               <img src={HeroImage} alt="hero-image" />
             </div>
           </div>
         </div>
+        <HeroSlider/>
     </div>
   )
 }
