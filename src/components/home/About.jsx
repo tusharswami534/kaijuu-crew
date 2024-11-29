@@ -9,7 +9,7 @@ import AboutImageFour from '../../assets/image/png/about-image-4.png'
 
 const About = () => {
   return (
-    <div id='about' className='bg-blue-charcoal -mt-0.5 pt-[61px] pb-[135px] max-lg:py-[60px] max-md:py-[40px] max-sm:py-[30px]'>
+    <div id='about' className='bg-blue-charcoal overflow-hidden -mt-0.5 pt-[61px] pb-[135px] max-lg:py-[60px] max-md:py-[40px] max-sm:py-[30px]'>
         <div className='max-w-[1320px] max-xl:px-5 mx-auto'>
             <div className='flex flex-wrap gap-y-10'>
                 <div className="w-1/2 max-lg:w-full flex flex-col justify-center">

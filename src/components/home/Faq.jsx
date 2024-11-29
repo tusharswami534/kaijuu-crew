@@ -4,7 +4,7 @@ import FooterBgImage from '../../assets/image/png/footer-bg-image.png'
 import Footer from '../common/Footer';
 
 const Faq = () => {
-    // Set initial state to 0 so that the first item is open by default
+    
     const [activeIndex, setActiveIndex] = useState(0);
     const contentRefs = useRef([]);
 
@@ -13,7 +13,7 @@ const Faq = () => {
     };
 
     return (
-        <div  style={{ backgroundImage: `url(${FooterBgImage})` }} className="bg-faq bg-cover bg-no-repeat bg-center -mt-[1px] relative  max-lg:py-[60px] max-md:py-[40px] max-sm:py-[30px]" id="faq">
+        <div  style={{ backgroundImage: `url(${FooterBgImage})` }} className="bg-faq overflow-hidden bg-cover bg-no-repeat bg-center -mt-[1px] relative pt-[106px] max-lg:py-[60px] max-md:py-[40px] max-sm:py-[30px]" id="faq">
             <div className="max-w-[1320px] max-xl:px-5 mx-auto pb-[192px] max-lg:pb-[50px] max-md:pb-[30px] max-sm:pb-[20px]">
                 <div className='flex items-end text-center justify-center'>
                     <CommonHeading SectionHeading={'FAQ'}/><p className='text-white text-[40px] font-godzilla'>S</p>

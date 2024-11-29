@@ -14,7 +14,7 @@ import CommonHeading from '../common/CommonHeading';
 
 const TeamSlider = () => {
   return (
-    <div id='team' className='bg-blue-charcoal -mt-0.5 pt-[72px] pb-[130px]'>
+    <div id='team' className='bg-blue-charcoal overflow-hidden -mt-0.5 pt-[72px] pb-[130px]'>
       <div className="max-w-[1320px] mx-auto relative">
         <div className='text-center pb-[55px]'>
         <CommonHeading SectionHeading={"Team"}/>

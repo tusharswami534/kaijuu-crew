@@ -5,7 +5,7 @@ import CommonDescription from '../common/CommonDescription'
 
 const Story = () => {
   return (
-    <div id='story' className='bg-blue-charcoal py-24 max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12'>
+    <div id='story' className='bg-blue-charcoal overflow-hidden py-24 max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12'>
         <div className='max-w-[1320px] mx-auto max-xl:px-5'>
             <div className='flex flex-wrap '>
                 <div className='w-1/2 max-lg:justify-center max-lg:flex max-lg:w-full'>

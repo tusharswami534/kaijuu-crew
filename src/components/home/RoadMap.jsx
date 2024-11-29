@@ -12,7 +12,7 @@ import PentagonLine from '../../assets/image/png/roadmap-pentagon-line.png'
 
 const RoadMap = () => {
   return (
-    <div id='roadmap' className='lg:min-h-[1024px] bg-blue-charcoal '>
+    <div id='roadmap' className='lg:min-h-[1024px] bg-blue-charcoal overflow-hidden'>
         <div className='max-w-[1320px] max-xl:px-10 max-md:px-5 max-xl:py-20 mx-auto w-full lg:min-h-[1024px] relative'>
             {/*  */}
                 <img className='absolute top-[32%] left-[19%] max-xl:hidden' src={PentagonLine} alt="line" />

@@ -7,7 +7,7 @@ import HeroSlider from './HeroSlider'
 
 const Hero = () => {
   return (
-    <div className='bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${HeroBgImage})` }}>
+    <div className='bg-no-repeat overflow-hidden bg-cover bg-center' style={{ backgroundImage: `url(${HeroBgImage})` }}>
         <div className='max-w-[1320px] max-xl:px-5 pt-[55px] pb-3 mx-auto'>
           <div className='flex flex-wrap max-lg:gap-10'>
             <div className='w-5/12 max-lg:w-full'>
