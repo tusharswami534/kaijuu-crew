@@ -47,7 +47,7 @@ const Faq = () => {
                             }}
                             className="overflow-hidden transition-all duration-300 ease-in-out"
                         >
-                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white font-oswald text-[22px] max-md:text-lg  font-normal leading-150">
+                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white font-oswald text-[22px] max-md:text-lg font-normal leading-150">
                                 Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.
                             </div>
                         </div>

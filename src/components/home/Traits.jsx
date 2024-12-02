@@ -52,7 +52,7 @@ const Traits = () => {
                                 <p className='leading-150 text-white text-5xl max-lg:text-4xl max-md:text-3xl font-oswald font-bold'>0.0555</p>
                                 <ETHCoin/>
                                 </div>
-                               <CommonDescription CommonSectionDescription={'Mint Cost'}/>
+                            <CommonDescription CommonSectionDescription={'Mint Cost'}/>
                             </div>
                         </div>
                     </div>

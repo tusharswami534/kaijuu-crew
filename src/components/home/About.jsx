@@ -25,7 +25,7 @@ const About = () => {
                 </div>
                 <div className='w-1/2 xl:translate-x-[49px] max-xl:translate-x- max-lg:w-full'>
                     <div className='flex flex-wrap'>
-                        <div className='max-md:w-full w-1/2 flex  flex-col max-lg:items-center items-end justify-end'>
+                        <div className='max-md:w-full w-1/2 flex flex-col max-lg:items-center items-end justify-end'>
                         <img src={AboutImageOne} alt="imageOne" />
                         <img src={AboutImageThree} alt="imageOne" />
                         </div>

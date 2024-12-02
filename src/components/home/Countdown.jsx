@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Countdown = () => {
  
-  const initialTime =  10 * 24 * 60 * 60 * 1000 + 20 * 60 * 60 * 1000 + 15 * 60 * 1000 +  10 * 1000; ;
+  const initialTime = 10 * 24 * 60 * 60 * 1000 + 20 * 60 * 60 * 1000 + 15 * 60 * 1000 + 10 * 1000; ;
 
   const [timeLeft, setTimeLeft] = useState(initialTime);
 

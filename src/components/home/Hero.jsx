@@ -26,11 +26,11 @@ Nay, but 'cause your Apes are Bored.
                 </p>
                 <Countdown/>
                 <div className='flex gap-4 max-sm:flex-col'>
-                  <button className='hover:scale-110 whitespace-nowrap w-max transition-all-ease duration-300  py-3 flex uppercase font-bold leading-150 bg-ferrari-red text-lg px-9 rounded-[7px] text-white items-center gap-[11px]' >
+                  <button className='hover:scale-110 whitespace-nowrap w-max transition-all-ease duration-300 py-3 flex uppercase font-bold leading-150 bg-ferrari-red text-lg px-9 rounded-[7px] text-white items-center gap-[11px]' >
                     <DiscordIcon/>
                   join discord
                   </button>
-                  <button className='hover:scale-110 whitespace-nowrap w-max transition-all-ease duration-300  py-3 flex uppercase font-bold leading-150 bg-ferrari-red text-lg px-9 rounded-[7px] text-white items-center gap-[11px]' >
+                  <button className='hover:scale-110 whitespace-nowrap w-max transition-all-ease duration-300 py-3 flex uppercase font-bold leading-150 bg-ferrari-red text-lg px-9 rounded-[7px] text-white items-center gap-[11px]' >
                   Connect Wallet
                   </button>
                 </div>

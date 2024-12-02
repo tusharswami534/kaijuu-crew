@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='flex items-center justify-center flex-col pb-[60px]'>
         <div>
-            <a href='/' className='font-godzilla font-normal text-ferrari-red leading-[100%] text-4xl max-md:text-3xl max-sm:text-2xl '>Kaijuu<span className='text-white'>Crew</span> </a>
+            <a href='/' className='font-godzilla font-normal text-ferrari-red leading-[100%] text-4xl max-md:text-3xl max-sm:text-2xl'>Kaijuu<span className='text-white'>Crew</span> </a>
         </div>
         <div className='flex gap-6 pt-7'>
             <a target='blank' href="https://x.com/?mx=2"> <TwitterIcon/> </a>

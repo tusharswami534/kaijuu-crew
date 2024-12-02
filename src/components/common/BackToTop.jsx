@@ -18,7 +18,7 @@ const BackToTop = () => {
     
   return (
     <div>
-        {scrollTop && (  <button onClick={handleClick} className='fixed bottom-5 right-5'><img src={BackToTopImage} alt="backtotopLine" /></button> )
+        {scrollTop && (<button onClick={handleClick} className='fixed bottom-5 right-5'><img src={BackToTopImage} alt="backtotopLine" /></button> )
     }
     </div>
   )
