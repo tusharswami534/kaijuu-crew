@@ -1,13 +1,13 @@
 import React from 'react'
-import TraitsBgImage from '../../assets/image/png/traits-bg-image.png'
-import TraitsImage from '../../assets/image/png/traits-image.png'
+import TraitsBgImage from '../../assets/image/webp/traits-bg-image.webp'
+import TraitsImage from '../../assets/image/webp/traits-image.webp'
 import CommonHeading from '../common/CommonHeading'
 import CommonDescription from '../common/CommonDescription'
 import { ETHCoin } from '../common/Icon'
 
 const Traits = () => {
   return (
-    <div id='traits' className='bg-no-repeat overflow-hidden bg-cover bg-center py-24 max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12' style={{ backgroundImage: `url(${TraitsBgImage})` }}>
+    <div id='traits' className='bg-no-repeat overflow-hidden bg-cover bg-center py-24 max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12 -mt-0.5' style={{ backgroundImage: `url(${TraitsBgImage})` }}>
         <div className='max-w-[1320px] mx-auto max-xl:px-5'>
             <div className='text-center pb-10'>
             <CommonHeading SectionHeading={'Traits'} SectionWhiteHeading={''}/>
@@ -17,7 +17,7 @@ const Traits = () => {
                     <img className='w-full pointer-events-none max-w-[738px]' src={TraitsImage} alt="traitsImage" />
                 </div>
                 <div className='w-5/12 max-lg:w-full flex max-lg:justify-center items-center max-2xl:w-1/2'>
-                    <div className='max-w-[590px] w-full rounded-[30px] border border-white border-opacity-25 backdrop-filter p-11  !backdrop-blur-[35px]'>
+                    <div className='max-w-[590px] w-full rounded-[30px] border border-white border-opacity-25 backdrop-filter px-11 py-10  max-sm:p-5 !backdrop-blur-[35px]'>
                         <div>
                             <p className='upercase text-white font-godzilla text-5xl max-lg:text-4xl leading-86 '>Traits</p>
                         </div>

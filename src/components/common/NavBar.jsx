@@ -1,8 +1,7 @@
 import React, { useState , useEffect } from 'react'
 import { NAV_BAR } from './Helper'
-import USA from '../../assets/image/png/usa-logo.png'
-import HindiLogo from '../../assets/image/png/hindi-logo.png'; // Replace with your actual path
-
+import USA from '../../assets/image/webp/usa-logo.webp'
+import HindiLogo from '../../assets/image/webp/hindi-logo.webp';
 
 const NavBar = () => {
 
@@ -36,7 +35,7 @@ const NavBar = () => {
 
   return (
     <div className='bg-smoky-back'>
-      <div className='flex justify-between items-center max-lg:py-4 pb-[26px] pt-[35px] max-w-[1320px] max-lg:px-4 mx-auto'>
+      <div className='flex justify-between items-center max-lg:py-4 max-xl:px-5 pb-[26px] pt-[35px] max-w-[1320px] max-lg:px-4 mx-auto'>
         <div className='items-center'>
           <a className='text-ferrari-red font-godzilla text-3xl ' href="/">
           Kaijuu<span className='text-white'>Crew</span></a>
@@ -57,7 +56,7 @@ const NavBar = () => {
         </button>
         <div className={`flex gap-10 max-lg:flex-col max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-black max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0' : 'left-full'}`}>
           {NAV_BAR.map((data, i) => (
-            <a onClick={closeNavbar} className='whitespace-nowrap hover:text-ferrari-red transition-all duration-300 font-oswald text-white leading-150 text-[22px] max-md:text-xl' href={data.link} key={i}>{data.linkName}</a>
+            <a onClick={closeNavbar} className='whitespace-nowrap hover:text-ferrari-red transition-all duration-300 font-oswald text-white leading-150 text-[22px]' href={data.link} key={i}>{data.linkName}</a>
           )
           )}
            <div className="flex gap-3">
@@ -69,8 +68,8 @@ const NavBar = () => {
         onChange={handleLanguageChange} 
         className="text-white text-[22px] max-md:text-xl cursor-pointer hover:text-ferrari-red transition-all duration-300 group outline-none font-oswald bg-transparent"
       >
-        <option value="ENG" className="text-black bg-transparent">ENG</option>
-        <option value="HIN" className="text-black bg-transparent">Hindi</option>
+        <option value="ENG" className="text-black cursor-pointer bg-transparent">ENG</option>
+        <option value="HIN" className="text-black cursor-pointer bg-transparent">Hindi</option>
       </select>
     </div>
         </div>

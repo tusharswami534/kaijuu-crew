@@ -1,4 +1,5 @@
 import './App.css';
+import BackToTop from './components/common/BackToTop';
 import NavBar from './components/common/NavBar';
 import About from './components/home/About';
 import Faq from './components/home/Faq';
@@ -22,6 +23,7 @@ function App() {
         <RoadMap/>
         <TeamSlider/>
         <Faq/>
+        <BackToTop/>
     </div>
   );
 }

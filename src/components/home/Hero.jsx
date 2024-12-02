@@ -1,13 +1,13 @@
 import React from 'react'
-import HeroBgImage from '../../assets/image/png/hero-bg-image.png'
+import HeroBgImage from '../../assets/image/webp/hero-bg-image.webp'
 import Countdown from './Countdown'
-import HeroImage from '../../assets/image/png/hero-image.png'
+import HeroImage from '../../assets/image/webp/hero-image.webp'
 import { DiscordIcon } from '../common/Icon'
 import HeroSlider from './HeroSlider'
 
 const Hero = () => {
   return (
-    <div className='bg-no-repeat overflow-hidden bg-cover bg-center' style={{ backgroundImage: `url(${HeroBgImage})` }}>
+    <div className='bg-no-repeat overflow-hidden bg-cover bg-center -mt-0.5' style={{ backgroundImage: `url(${HeroBgImage})` }}>
         <div className='max-w-[1320px] max-xl:px-5 pt-[55px] pb-3 mx-auto'>
           <div className='flex flex-wrap max-lg:gap-10'>
             <div className='w-5/12 max-lg:w-full'>
@@ -37,7 +37,7 @@ Nay, but 'cause your Apes are Bored.
               </div>
             </div>
             <div className='w-7/12 flex justify-center lg:justify-end max-lg:w-full'>
-              <img src={HeroImage} alt="hero-image" />
+              <img className='object-cover' src={HeroImage} alt="hero-image" />
             </div>
           </div>
         </div>

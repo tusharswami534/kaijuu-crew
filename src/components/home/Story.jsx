@@ -1,18 +1,18 @@
 import React from 'react'
-import StoryImage from '../../assets/image/png/story-image.png'
+import StoryImage from '../../assets/image/webp/story-image.webp'
 import CommonHeading from '../common/CommonHeading'
 import CommonDescription from '../common/CommonDescription'
 
 const Story = () => {
   return (
-    <div id='story' className='bg-blue-charcoal overflow-hidden py-24 max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12'>
+    <div id='story' className='bg-blue-charcoal overflow-hidden py-24 max-xl:py-20 max-lg:py-16 max-md:py-14 max-sm:py-12 -mt-0.5'>
         <div className='max-w-[1320px] mx-auto max-xl:px-5'>
             <div className='flex flex-wrap '>
                 <div className='w-1/2 max-lg:justify-center max-lg:flex max-lg:w-full'>
                     <img src={StoryImage} alt="storyImage" />
                 </div>
                 <div className='w-1/2 max-lg:w-full flex flex-col justify-center '>
-                    <div className='max-lg:text-center'>
+                    <div className='max-lg:text-center max-sm:pt-5'>
                         <CommonHeading SectionHeading="Story"/>
                     </div>
                     <div className='pt-7 lg:max-w-[648px] max-lg:text-center'>

@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import CommonHeading from '../common/CommonHeading';
-import FooterBgImage from '../../assets/image/png/footer-bg-image.png'
+import FooterBgImage from '../../assets/image/webp/faq-background.webp'
 import Footer from '../common/Footer';
 
 const Faq = () => {

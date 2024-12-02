@@ -1,10 +1,10 @@
 import React from 'react'
-import KaijuuImageOne from '../../assets/image/png/kaijuu-image-1.png'
-import KaijuuImageTwo from '../../assets/image/png/kaijuu-image-2.png'
-import KaijuuImageThree from '../../assets/image/png/kaijuu-image-3.png'
-import KaijuuImageFour from '../../assets/image/png/kaijuu-image-4.png'
-import KaijuuImageFive from '../../assets/image/png/kaijuu-image-5.png'
-import KaijuuImageSix from '../../assets/image/png/kaijuu-image-6.png'
+import KaijuuImageOne from '../../assets/image/webp/kaijuu-image-1.webp'
+import KaijuuImageTwo from '../../assets/image/webp/kaijuu-image-2.webp'
+import KaijuuImageThree from '../../assets/image/webp/kaijuu-image-3.webp'
+import KaijuuImageFour from '../../assets/image/webp/kaijuu-image-4.webp'
+import KaijuuImageFive from '../../assets/image/webp/kaijuu-image-5.webp'
+import KaijuuImageSix from '../../assets/image/webp/kaijuu-image-6.webp'
 
 const HeroSlider = () => {
   return (

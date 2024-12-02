@@ -2,14 +2,14 @@ import React from 'react'
 import CommonHeading from '../common/CommonHeading'
 import CommonDescription from '../common/CommonDescription'
 import CommonBtn from '../common/CommonBtn'
-import AboutImageOne from '../../assets/image/png/about-image-1.png'
-import AboutImageTwo from '../../assets/image/png/about-image-2.png'
-import AboutImageThree from '../../assets/image/png/about-image-3.png'
-import AboutImageFour from '../../assets/image/png/about-image-4.png'
+import AboutImageOne from '../../assets/image/webp/about-image-1.webp'
+import AboutImageTwo from '../../assets/image/webp/about-image-2.webp'
+import AboutImageThree from '../../assets/image/webp/about-image-3.webp'
+import AboutImageFour from '../../assets/image/webp/about-image-4.webp'
 
 const About = () => {
   return (
-    <div id='about' className='bg-blue-charcoal overflow-hidden -mt-0.5 pt-[61px] pb-[135px] max-lg:py-[60px] max-md:py-[40px] max-sm:py-[30px]'>
+    <div id='about' className='bg-blue-charcoal overflow-hidden -mt-0.5 pt-[61px] pb-[135px] max-xl:py-[60px] max-md:py-[40px]'>
         <div className='max-w-[1320px] max-xl:px-5 mx-auto'>
             <div className='flex flex-wrap gap-y-10'>
                 <div className="w-1/2 max-lg:w-full flex flex-col justify-center">
@@ -24,12 +24,12 @@ const About = () => {
                     </div>
                 </div>
                 <div className='w-1/2 xl:translate-x-[49px] max-xl:translate-x- max-lg:w-full'>
-                    <div className='flex flex-wrap max-lg:gap-y-10'>
+                    <div className='flex flex-wrap'>
                         <div className='max-md:w-full w-1/2 flex  flex-col max-lg:items-center items-end justify-end'>
                         <img src={AboutImageOne} alt="imageOne" />
                         <img src={AboutImageThree} alt="imageOne" />
                         </div>
-                        <div className='max-md:w-full w-1/2 flex  flex-col items-end max-lg:items-center max-md:items-center justify-end'>
+                        <div className='max-md:w-full w-1/2 flex lg:!translate-x-0 md:translate-x-[-30px] flex-col items-end max-lg:items-center max-md:items-center justify-end'>
                         <img src={AboutImageTwo} alt="imageOne" />
                         <img src={AboutImageFour} alt="imageOne" />
                         </div>
