@@ -56,7 +56,7 @@ const NavBar = () => {
         </button>
         <div className={`flex gap-10 max-lg:flex-col max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-black max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0' : 'left-full'}`}>
           {NAV_BAR.map((data, i) => (
-            <a onClick={closeNavbar} className='whitespace-nowrap hover:text-ferrari-red transition-all duration-300 font-oswald text-white leading-150 text-[22px]' href={data.link} key={i}>{data.linkName}</a>
+            <a onClick={closeNavbar} className='whitespace-nowrap hover:text-ferrari-red transition-all duration-300 text-white leading-150 text-[22px]' href={data.link} key={i}>{data.linkName}</a>
           )
           )}
            <div className="flex gap-3">
@@ -66,7 +66,7 @@ const NavBar = () => {
       <select 
         value={language} 
         onChange={handleLanguageChange} 
-        className="text-white text-[22px] max-md:text-xl cursor-pointer hover:text-ferrari-red transition-all duration-300 group outline-none font-oswald bg-transparent"
+        className="text-white text-[22px] max-md:text-xl cursor-pointer hover:text-ferrari-red transition-all duration-300 group outline-none bg-transparent"
       >
         <option value="ENG" className="text-black cursor-pointer bg-transparent">ENG</option>
         <option value="HIN" className="text-black cursor-pointer bg-transparent">Hindi</option>

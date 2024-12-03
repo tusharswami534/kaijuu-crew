@@ -23,7 +23,7 @@ const Faq = () => {
                     <div className="backdrop-blur-[35px] rounded-[10px] mb-[17px] border border-white border-solid border-opacity-25 backdrop-filter transition-all duration-300">
                         <button
                             onClick={() => toggleAccordion(0)}
-                            className="flex py-[17.5px] px-8 items-center justify-between font-oswald w-full text-white text-[22px] max-md:text-lg leading-150 font-bold max-sm:p-4"
+                            className="flex py-[17.5px] px-8 items-center justify-between w-full text-white text-[22px] max-md:text-lg leading-150 font-bold max-sm:p-4"
                         >
                             <span>Volutpat gravida sapien in purus</span>
                             <svg
@@ -47,7 +47,7 @@ const Faq = () => {
                             }}
                             className="overflow-hidden transition-all duration-300 ease-in-out"
                         >
-                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white font-oswald text-[22px] max-md:text-lg font-normal leading-150">
+                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white text-[22px] max-md:text-lg font-normal leading-150">
                                 Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const Faq = () => {
                     <div className="backdrop-blur-[35px] rounded-[10px] mb-[17px] border border-white border-solid border-opacity-25 backdrop-filter transition-all duration-300">
                         <button
                             onClick={() => toggleAccordion(1)}
-                            className="flex py-[17.5px] px-8 items-center justify-between font-oswald w-full text-white text-[22px] max-md:text-lg leading-150 font-bold max-sm:p-4"
+                            className="flex py-[17.5px] px-8 items-center justify-between w-full text-white text-[22px] max-md:text-lg leading-150 font-bold max-sm:p-4"
                         >
                             <span>Volutpat gravida sapien in purus</span>
                             <svg
@@ -81,7 +81,7 @@ const Faq = () => {
                             }}
                             className="overflow-hidden transition-all duration-300 ease-in-out"
                         >
-                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white font-oswald text-[22px] max-md:text-lg  font-normal leading-150">
+                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white text-[22px] max-md:text-lg  font-normal leading-150">
                                 Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const Faq = () => {
                     <div className="backdrop-blur-[35px] rounded-[10px] mb-[17px] border border-white border-solid border-opacity-25 backdrop-filter transition-all duration-300">
                         <button
                             onClick={() => toggleAccordion(2)}
-                            className="flex py-[17.5px] px-8 items-center justify-between font-oswald w-full text-white text-[22px] max-md:text-lg leading-150 font-bold max-sm:p-4"
+                            className="flex py-[17.5px] px-8 items-center justify-between w-full text-white text-[22px] max-md:text-lg leading-150 font-bold max-sm:p-4"
                         >
                             <span>Volutpat gravida sapien in purus</span>
                             <svg
@@ -115,7 +115,7 @@ const Faq = () => {
                             }}
                             className="overflow-hidden transition-all duration-300 ease-in-out"
                         >
-                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white font-oswald text-[22px] max-md:text-lg  font-normal leading-150">
+                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white text-[22px] max-md:text-lg  font-normal leading-150">
                                 Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.
                             </div>
                         </div>
@@ -125,7 +125,7 @@ const Faq = () => {
                     <div className="backdrop-blur-[35px] rounded-[10px] mb-[17px] border border-white border-solid border-opacity-25 backdrop-filter transition-all duration-300">
                         <button
                             onClick={() => toggleAccordion(3)}
-                            className="flex py-[17.5px] px-8 items-center justify-between font-oswald w-full text-white text-[22px] max-md:text-lg leading-150 font-bold max-sm:p-4"
+                            className="flex py-[17.5px] px-8 items-center justify-between w-full text-white text-[22px] max-md:text-lg leading-150 font-bold max-sm:p-4"
                         >
                             <span>Volutpat gravida sapien in purus</span>
                             <svg
@@ -149,7 +149,7 @@ const Faq = () => {
                             }}
                             className="overflow-hidden transition-all duration-300 ease-in-out"
                         >
-                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white font-oswald text-[22px] max-md:text-lg  font-normal leading-150">
+                            <div className="max-sm:p-[0_16px_16px_16px] pb-5 px-8 pt-[14px] text-white text-[22px] max-md:text-lg  font-normal leading-150">
                                 Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.
                             </div>
                         </div>

@@ -14,7 +14,7 @@ const KaijuuCrewClasses = () => {
           {CREW_CLASSES.map((item, index) => (
             <div key={index}>
               <img src={item.imgSrc} alt="CrewScouts" />
-              <p className='text-white text-[36px] leading-150 font-semibold text-center font-oswald mt-3'>{item.text}</p>
+              <p className='text-white text-[36px] leading-150 font-semibold text-center mt-3'>{item.text}</p>
             </div>
           ))}
         </div>

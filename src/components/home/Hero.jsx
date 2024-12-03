@@ -13,7 +13,7 @@ const Hero = () => {
             <div className='w-5/12 max-lg:w-full'>
               <div>
                 <h1 className='text-ferrari-red font-godzilla text-[145.44px] max-xl:text-9xl max-lg:text-8xl max-md:text-7xl max-sm:text-6xl leading-115'>Kaijuu<span className='text-white'> Crew </span> </h1>
-                <p className='lg:max-w-[368px] text-[22px] text-white font-oswald'>
+                <p className='lg:max-w-[368px] text-[22px] text-white'>
                 The ocean surges with spray and foam,
 As Kaijuu rise from depth to roam.
 Thirty-three hundred, and thirty-three more,

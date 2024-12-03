@@ -6,7 +6,6 @@ module.exports = {
   theme: {
     fontFamily: {
       godzilla: ['godzilla', 'sans-serif'],
-      oswald : ['oswald', 'sans-serif'],
       Righteous : ['Righteous', 'sans-serif'],
     },
     extend: {

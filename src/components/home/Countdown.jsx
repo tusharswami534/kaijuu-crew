@@ -27,8 +27,8 @@ const Countdown = () => {
 
   return (
     <div className="py-[18px]">
-      <p className="leading-150 text-white font-bold text-5xl font-oswald">{formatTime(timeLeft)}</p>
-      <p className="text-[#99A9BD] text-lg leading-150 font-oswald font-normal">Days left</p>
+      <p className="leading-150 text-white font-bold text-5xl">{formatTime(timeLeft)}</p>
+      <p className="text-[#99A9BD] text-lg leading-150 font-normal">Days left</p>
     </div>
   );
 };

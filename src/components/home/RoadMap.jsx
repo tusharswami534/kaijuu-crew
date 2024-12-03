@@ -32,7 +32,7 @@ const RoadMap = () => {
             <div className='absolute max-xl:relative xl:!top-[30%]'>
                     <div className='relative w-max'>
                     <img className='relative z-20 max-md:max-w-[120px] max-sm:max-w-[100px]' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-oswald max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <p className='text-[40px] z-20 max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     Phase-1
                     </p>
                     <img className='absolute z-10 max-xl:rotate-180 max-xl:!top-[98%] -top-[12%] left-1/2' src={RoadMapTopLine} alt="RoadmapTopLine" />
@@ -55,7 +55,7 @@ const RoadMap = () => {
             <div className='absolute max-xl:relative xl:top-[48%] xl:left-[20%] max-xl:mx-auto'> 
                     <div className='relative w-max'>
                     <img className='relative z-20 max-md:max-w-[120px] max-sm:max-w-[100px]' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-oswald max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <p className='text-[40px] z-20 max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     Phase-2
                     </p>
                     <img className='absolute z-10 rotate-180 -bottom-[12%] left-1/2' src={RoadMapTopLine} alt="RoadmapTopLine" />
@@ -78,7 +78,7 @@ const RoadMap = () => {
             <div className='absolute max-xl:relative xl:top-[30%] xl:left-[40%]'> 
                     <div className='relative w-max'>
                     <img className='relative z-20 max-md:max-w-[120px] max-sm:max-w-[100px]' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-oswald max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <p className='text-[40px] z-20 max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     Phase-3
                     </p>
                     <img className='absolute z-10 -top-[12%] left-1/2 max-xl:hidden' src={RoadMapTopLine} alt="RoadmapTopLine" />
@@ -102,7 +102,7 @@ const RoadMap = () => {
             <div className='absolute max-xl:relative xl:top-[48%] max-xl:mx-auto xl:left-[60%]'> 
                 <div className='relative w-max'>
                     <img className='relative z-20 max-md:max-w-[120px] max-sm:max-w-[100px]' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-oswald max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <p className='text-[40px] z-20 max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     Phase-4
                     </p>
                     <img className='absolute z-10 rotate-180 -bottom-[12%] left-1/2' src={RoadMapTopLine} alt="RoadmapTopLine" />
@@ -124,7 +124,7 @@ const RoadMap = () => {
             <div className='absolute max-xl:relative xl:top-[30%] xl:left-[80%]'> 
                     <div className='relative w-max'>
                     <img className='relative z-20 max-md:max-w-[120px] max-sm:max-w-[100px]' src={RoadMapPentagon} alt="Pentagon" />
-                    <p className='text-[40px] z-20 font-oswald max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <p className='text-[40px] z-20 max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg leading-120 text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     Phase-5
                     </p>
                     <img className='absolute z-10 -top-[12%] left-1/2' src={RoadMapTopLine} alt="RoadmapTopLine" />

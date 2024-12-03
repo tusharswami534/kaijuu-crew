@@ -26,17 +26,17 @@ const Traits = () => {
                         
                             <div className='w-1/2'>
                                 <ul className='list-none'>
-                                    <li className='text-[22px] font-normal font-oswald leading-150 text-white'>Background:8</li>
-                                    <li className='text-[22px] font-normal font-oswald leading-150 text-white'>Skins:19</li>
-                                    <li className='text-[22px] font-normal font-oswald leading-150 text-white'>Headwear:37</li>
-                                    <li className='text-[22px] font-normal font-oswald leading-150 text-white'>Clothes:44</li>
+                                    <li className='text-[22px] font-normal leading-150 text-white'>Background:8</li>
+                                    <li className='text-[22px] font-normal leading-150 text-white'>Skins:19</li>
+                                    <li className='text-[22px] font-normal leading-150 text-white'>Headwear:37</li>
+                                    <li className='text-[22px] font-normal leading-150 text-white'>Clothes:44</li>
                                 </ul>
                             </div>
                             <div className='w-1/2'>
                                 <ul className='list-none'>
-                                    <li className='text-[22px] font-normal font-oswald leading-150 text-white'>Eyes:23</li>
-                                    <li className='text-[22px] font-normal font-oswald leading-150 text-white'>Mouth:33</li>
-                                    <li className='text-[22px] font-normal font-oswald leading-150 text-white'>Accessories:7</li>
+                                    <li className='text-[22px] font-normal leading-150 text-white'>Eyes:23</li>
+                                    <li className='text-[22px] font-normal leading-150 text-white'>Mouth:33</li>
+                                    <li className='text-[22px] font-normal leading-150 text-white'>Accessories:7</li>
                                 </ul>
                             </div>
                         </div>
@@ -44,12 +44,12 @@ const Traits = () => {
                         <div className='max-w-[505px] pb-0.5 opacity-25 my-[26px] bg-white'></div>
                         <div className='flex'>
                             <div className='w-5/12'>
-                                <p className='leading-150 text-white text-5xl max-lg:text-4xl max-md:text-3xl font-oswald font-bold'>9,999</p>
+                                <p className='leading-150 text-white text-5xl max-lg:text-4xl max-md:text-3xl font-bold'>9,999</p>
                                <CommonDescription CommonSectionDescription={'Total Kaijuu'}/>
                             </div>
                             <div className='w-7/12'>
                                 <div className='flex items-center gap-3'>
-                                <p className='leading-150 text-white text-5xl max-lg:text-4xl max-md:text-3xl font-oswald font-bold'>0.0555</p>
+                                <p className='leading-150 text-white text-5xl max-lg:text-4xl max-md:text-3xl font-bold'>0.0555</p>
                                 <ETHCoin/>
                                 </div>
                             <CommonDescription CommonSectionDescription={'Mint Cost'}/>
